@@ -1,0 +1,18 @@
+{
+    "add_to_build_requires": [
+        "pkg-config",
+        "zlib1g",
+        "zlib1g-dev",
+        "libedit2",
+        "libargon2-1",
+        "libargon2-dev",
+        "libmemcached-dev",
+        "libmemcached11",
+        "ea-php73-php-cli",
+        "ea-php73-php-common",
+        "ea-php73-php-devel"
+    ],
+    "remove_from_requires": [
+        "ea-libmemcached"
+    ]
+}
