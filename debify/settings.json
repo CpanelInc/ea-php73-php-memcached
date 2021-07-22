@@ -14,5 +14,8 @@
     ],
     "remove_from_requires": [
         "ea-libmemcached"
-    ]
+    ],
+    "add_to_requires": {
+        "ea-php73-php-memcached": [ "libmemcached11" ]
+    }
 }
