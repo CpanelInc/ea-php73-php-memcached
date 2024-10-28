@@ -6,7 +6,7 @@
 Name: %{scl_version}-php-memcached
 Version: 3.1.3
 Summary: php-memcached extension for %{scl_version}
-%define release_prefix 7
+%define release_prefix 8
 Release: %{release_prefix}%{?dist}.cpanel
 License: MIT
 Group: Programming/Languages
@@ -49,6 +49,9 @@ install -m 644 %{SOURCE1} %{buildroot}/%{ext_prefix}/%{conf_dir}/
 %config /%{ext_prefix}/%{conf_dir}/memcached.ini
 
 %changelog
+* Mon Oct 28 2024 Julian Brown <julian.brown@cpanel.net> - 3.1.3-8
+- ZC-12246: Correct conffiles for Ubuntu
+
 * Thu Sep 21 2023 Dan Muey <dan@cpanel.net> - 3.1.3-7
 - ZC-11194: Remove unnecessary `BuildRequires` of php-cli
 
